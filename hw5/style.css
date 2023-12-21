@@ -1,0 +1,47 @@
+.back {
+    background-color: rgb(252, 244, 136);
+}
+
+.tech {
+    width: 1200px;
+    background-color: rgb(110, 185, 255);
+    margin: 0 auto;
+}
+
+#title{   
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 800;
+}
+
+#container {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.box {
+    max-width: 250px;
+    background-color: white;
+    display: inline-block;
+    margin: 50px 15px 15px 15px;
+    padding: 15px;
+}
+
+.box-title{
+    font-weight: 600;
+    margin: 10px;
+}
+
+.text {
+    margin: 15px;
+}
+
+.butt {
+    color: white;
+    background-color: rgb(110, 120, 255);
+    padding: 10px 50px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
