@@ -1,0 +1,30 @@
+
+
+.header {
+    
+}
+
+.container-all {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    height: 900px;
+    background-color: rgb(233, 248, 15);
+}
+
+.container-one {
+    position: absolute;
+    width: 1440px;
+    margin: 0 auto;
+    height: 400px;
+    background-color: aqua;
+}
+
+.container {
+    position: absolute;
+    left: 165px;
+    width: 1110px;
+    margin: 0 auto;
+    height: 200px;
+    background-color: red;
+}
