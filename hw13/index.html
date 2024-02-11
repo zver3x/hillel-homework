@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header">
+        <nav class="header__navigation nav">
+          <ul class="nav-logo">
+            <li class="nav-logo__item">
+              <img class="nav-logo__img" src="./image/logobox.svg" alt="#" />
+            </li>
+            <li class="nav-logo__item">
+              <img class="nav-logo__img2" src="./image/logobox2.svg" alt="#" />
+            </li>
+          </ul>
+          <input type="checkbox" id="cheker"/>
+          <div class="nav-btn">
+            <label for="cheker" class="nav-btn__label">
+              <span class="span"></span>
+              <span class="span span_long"></span>
+              <span class="span"></span>
+            </label>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-links__item">
+              <p class="nav-links__text">Marketplace</p>
+            </li>
+            <li class="nav-links__item">
+              <p class="nav-links__text">Rankings</p>
+            </li>
+            <li class="nav-links__item">
+              <p class="nav-links__text">Connect a wallet</p>
+            </li>
+            <li class="nav-links__item nav-links-btn">
+              <button class="nav-links__butt btn-group">
+                <img
+                  class="nav-links-btn__img"
+                  src="./image/User.svg"
+                  alt="#"
+                />
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container-main">
+        <div class="main-block1">
+          <div class="main-block1-wrapper-img">
+            <img
+              src="./image/mainpic.png"
+              alt="#"
+              class="main-block1-wrapper-img__img"
+            />
+            <img src="./image/mainpicsmall.png" alt="#" class="main-block1-wrapper-img__img-small">
+          </div>
+          <div class="main-block1__create-block create">
+            <div class="create-text-box">
+              <h2 class="create-text-box__title">Create account</h2>
+              <p class="create-text-box__text">
+                Welcome! enter your details and start creating, collecting and
+                selling NFTs.
+              </p>
+            </div>
+            <form class="create-form" action="#">
+              <div class="create-form-user">
+                <input
+                  class="create-form-user__input form-group"
+                  type="text"
+                  placeholder="Username"
+                />
+                <img
+                  class="create-form-user__img-user icon-group"
+                  src="./image/User.png"
+                  alt="#"
+                />
+              </div>
+              <div class="create-form-mail">
+                <input
+                  class="create-form-mail__input form-group"
+                  type="email"
+                  placeholder="Email Address"
+                />
+                <img
+                  class="create-form-mail__img-mail icon-group"
+                  src="./image/mail.svg"
+                  alt="#"
+                />
+              </div>
+              <div class="create-form-pass">
+                <input
+                  class="create-form-pass__input form-group"
+                  type="password"
+                  placeholder="Password"
+                />
+                <img
+                  class="create-form-pass__img-pass icon-group"
+                  src="./image/pass.svg"
+                  alt="#"
+                />
+              </div>
+              <div class="create-form-pass-confirm">
+                <input
+                  class="create-form-pass-confirm__input form-group"
+                  type="password"
+                  placeholder="Confirm Password"
+                />
+                <img
+                  class="create-form-pass-confirm__img-pass2 icon-group"
+                  src="./image/pass.svg"
+                  alt="#"
+                />
+              </div>
+              <input
+                class="create-form__submit btn-group"
+                type="submit"
+                value="Create account"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer-wrapper">
+          <div class="footer-wrapper__block1 bot1">
+            <div class="bot1-wrapper">
+              <img
+                class="bot1-wrapper__img"
+                src="./image/logobox.svg"
+                alt="#"
+              />
+              <img
+                class="bot1-wrapper__img2"
+                src="./image/logobox2.svg"
+                alt="#"
+              />
+            </div>
+            <p class="bot1__text-1 footer-text">
+              NFT marketplace UI created with Anima for Figma.
+            </p>
+            <p class="bot1__text-2 footer-text">Join our community</p>
+            <div class="bot1__img-group">
+              <img src="./image/discord.png" alt="#" class="bot1__img" />
+              <img src="./image/youtube.png" alt="#" class="bot1__img" />
+              <img src="./image/twitter.png" alt="#" class="bot1__img" />
+              <img src="./image/instagram.png" alt="#" class="bot1__img" />
+            </div>
+          </div>
+          <div class="footer-wrapper__block2 bot2">
+            <h5 class="bot2__title">Explore</h5>
+            <p class="bot2__text-1 footer-text">Marketplace</p>
+            <p class="bot2__text-2 footer-text">Rankings</p>
+            <p class="bot2__text-3 footer-text">Connect a wallet</p>
+          </div>
+          <div class="footer-wrapper__block3 bot3">
+            <h5 class="bot3__title">Join our weekly digest</h5>
+            <p class="bot3__text-1 footer-text">
+              Get exclusive promotions & updates straight to your inbox.
+            </p>
+            <form action="#" class="bot3-form">
+              <input
+                type="email"
+                class="bot3-form__input"
+                placeholder="Enter your email here"
+              />
+              <input
+              type="email"
+              class="bot3-form__input2"
+              placeholder="Enter Your Email Address"
+            />
+              <input
+                class="bot3-form__submit btn-group"
+                type="submit"
+                value="Subscribe"
+              />
+              <div class="bot3-form-small">
+                <img src="./image/mailsmall.png" alt="#" class="bot3-form-small__img">
+                <input
+                class="bot3-form-small__submit btn-group"
+                type="submit"
+                value="Subscribe"
+              />
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="hr" />
+        <p class="footer__privacy">Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+    </footer>
+  </body>
+</html>
